@@ -29,28 +29,46 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- My Stylesheet -->
+    <link href="css/style2.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 pt-lg-1 pb-lg-0" style="gap:10px; justify-content:center;">
-        <a href="javascript:void(0);" class="navbar-brand d-flex align-items-center col-dm-4">
-            <h1 class="m-0" id="logo"><img class="img-fluid me-3" src="img/logo.jpg" style="border-radius:50%;" alt="logo">أهل الضيافة</h1>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 pt-lg-1 pb-lg-0">
+        <a href="javascript:void(0);" class="navbar-brand d-flex">
+            <h1 class="m-0" id="logo"><img class="img-fluid" src="img/logo.jpg" alt="logo">أهل الضيافة</h1>
         </a>
-        <div class="col-dm-4 p-0 d-none d-md-block" style="margin-left:auto;">
-            <div class="d-flex align-items-center" style="justify-content:center;">
-                <div class="btn-lg-square bg-primary rounded-circle me-3">
-                    <i class="fa fa-phone-alt text-white"></i>
-                </div>
-                <h5 class="fs-6 m-0">06 61 77 42 59</h5>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="nav-item .navbar-brand p-0 d-flex d-sm-block dropdown-item">
+                <a href="https://web.facebook.com/profile.php?id=61563203021644">
+                    <div class="d-flex align-items-center">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </div>
+                        <h5 class="fs-6 m-0">Facebook</h5>
+                    </div>
+                </a>
             </div>
-        </div>
-        <div class="col-dm-4 p-0 d-none d-md-block">
-            <div class="d-flex align-items-center" style="justify-content:center;">
-                <div class="btn-lg-square bg-primary rounded-circle me-3">
-                    <i class="fa fa-envelope text-white"></i>
+            <div class="nav-item .navbar-brand p-0 d-flex d-sm-block dropdown-item" style="padding: 5px 0 !important;">
+                <div class="d-flex align-items-center">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-phone-alt text-white"></i>
+                    </div>
+                    <h5 class="fs-6 m-0">06 61 77 42 59</h5>
                 </div>
-                <h5 class="fs-6 m-0">ahlediafa@gmail.com</h5>
+            </div>
+            <div class="nav-item .navbar-brand p-0 d-flex d-sm-block dropdown-item">
+                <div class="d-flex align-items-center">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-envelope text-white"></i>
+                    </div>
+                    <h5 class="fs-6 m-0">ahlediafa@gmail.com</h5>
+                </div>
             </div>
         </div>
     </nav>
@@ -357,7 +375,7 @@
                     <p class="mb-4">Si vous souhaitez nous rencontrer en personne, ou vous avez besoin de plus de personnalisation, 
                         rendez-vous dans notre établissement à l'adresse suivante : G8W9+VFG, Rdpt Chahdia, Casablanca 20240.
                     </p>
-                    <h5 class="text-light mb-4">Venez voir notre page facebook</h5>
+                    <h5 class="text-light mb-4">Visitez notre page facebook</h5>
                     <a class="btn me-1" href="https://web.facebook.com/profile.php?id=61563203021644">
                         <i class="fab fa-facebook-f"></i> : Page Facebook
                     </a>
@@ -378,7 +396,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a> -->
 
     <!-- EmailJs -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
